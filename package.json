@@ -1,0 +1,11 @@
+{
+  "name": "jscodeshift-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:swac/jscodeshift-examples.git",
+  "author": "Ashwin Bhat <me@ashwinbhat.com>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "jscodeshift": "^0.6.4"
+  }
+}
