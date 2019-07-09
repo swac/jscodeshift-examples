@@ -12,7 +12,6 @@ export default function(fileInfo, api) {
     })
     .replaceWith(path => {
       const { node } = path;
-      console.log(node.arguments.length);
       return jscodeshift.callExpression(node.callee, [
         node.arguments[0],
         jscodeshift.objectExpression(
