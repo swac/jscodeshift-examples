@@ -33,7 +33,7 @@ function transform(fileInfo, api) {
             return jscodeshift.importDeclaration(
               [
                 jscodeshift.importDefaultSpecifier(
-                  jscodeshift.identifier(specifier.imported.name)
+                  jscodeshift.identifier(specifier.local.name)
                 )
               ],
               jscodeshift.literal(`lodash/${specifier.imported.name}`)
