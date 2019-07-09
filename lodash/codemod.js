@@ -9,7 +9,7 @@
 // import keyBy from 'lodash/keyBy';
 // import groupBy from 'lodash/groupBy';
 
-function transform(fileInfo, api) {
+export default function transform(fileInfo, api) {
   const { jscodeshift } = api;
   return (
     jscodeshift(fileInfo.source)
@@ -44,5 +44,3 @@ function transform(fileInfo, api) {
       .toSource()
   );
 }
-
-export default transform;
