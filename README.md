@@ -20,3 +20,7 @@ To run a codemod for real, run:
 ```
 yarn jscodeshift -t lodash/codemod.js lodash/sample.js
 ```
+
+## Slides
+
+https://docs.google.com/presentation/d/15BuAjA2TrZoQLre7ZlYwq5Zseu1vmKWAq3WsNDO5JZ0/edit?usp=sharing
